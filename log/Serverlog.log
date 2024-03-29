@@ -1,0 +1,7 @@
+2024-03-29 16:27:42 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\linh-nguyen\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-03-29 16:27:43 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-03-29 16:27:43 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\linh-nguyen\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-03-29 16:28:17 INFO  HomePage:21 - Clicking on Register link
+2024-03-29 16:28:21 INFO  RegisterPage:20 - Registering user
