@@ -1,7 +1,31 @@
-2024-03-29 16:27:42 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\linh-nguyen\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+2024-04-01 16:28:49 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
 
-2024-03-29 16:27:43 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
-2024-03-29 16:27:43 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\linh-nguyen\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
-2024-03-29 16:28:17 INFO  HomePage:21 - Clicking on Register link
-2024-03-29 16:28:21 INFO  RegisterPage:20 - Registering user
+2024-04-01 16:28:50 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-01 16:28:50 INFO  WebDriverManager:1571 - Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+2024-04-01 16:28:51 INFO  Downloader:132 - Downloading https://msedgedriver.azureedge.net/123.0.2420.65/edgedriver_win64.zip
+2024-04-01 16:28:52 INFO  Downloader:193 - Extracting driver from compressed file edgedriver_win64.zip
+2024-04-01 16:28:52 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\cuube\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-01 16:28:58 INFO  HomePage:16 - Clicking on Register link
+2024-04-01 16:29:02 INFO  RegisterPage:16 - Registering user
+2024-04-01 22:12:50 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-01 22:12:50 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-01 22:12:50 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\cuube\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-01 22:13:07 INFO  HomePage:16 - Clicking on Register link
+2024-04-01 22:13:10 INFO  RegisterPage:26 - Registering user
+2024-04-01 22:16:15 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-01 22:16:16 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-01 22:16:16 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\cuube\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-01 22:16:19 INFO  HomePage:16 - Clicking on Register link
+2024-04-01 22:16:23 INFO  RegisterPage:26 - Registering user
+2024-04-02 09:39:53 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-02 09:39:54 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-02 09:39:54 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\cuube\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-02 09:40:01 INFO  HomePage:16 - Clicking on Register link
+2024-04-02 09:40:04 INFO  RegisterPage:26 - Registering user
