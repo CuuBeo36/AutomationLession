@@ -29,3 +29,263 @@
 2024-04-02 09:39:54 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\cuube\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
 2024-04-02 09:40:01 INFO  HomePage:16 - Clicking on Register link
 2024-04-02 09:40:04 INFO  RegisterPage:26 - Registering user
+2024-04-02 13:44:31 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\linh-nguyen\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-04-02 13:44:41 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-02 13:44:41 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\linh-nguyen\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-02 13:45:43 INFO  HomePage:16 - Clicking on Register link
+2024-04-02 14:11:48 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\linh-nguyen\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-04-02 14:11:50 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-02 14:11:51 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\linh-nguyen\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-02 14:12:25 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\linh-nguyen\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-04-02 14:12:26 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-02 14:12:26 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\linh-nguyen\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-02 14:51:34 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\linh-nguyen\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-04-02 14:51:46 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-02 14:51:46 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\linh-nguyen\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-02 14:59:24 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\linh-nguyen\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-04-02 14:59:25 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-02 14:59:25 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\linh-nguyen\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-02 15:02:51 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\linh-nguyen\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-04-02 15:02:52 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-02 15:02:53 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\linh-nguyen\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-02 15:05:19 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\linh-nguyen\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-04-02 15:05:20 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-02 15:05:21 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\linh-nguyen\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-02 15:13:58 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\linh-nguyen\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-04-02 15:13:59 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-02 15:13:59 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\linh-nguyen\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-02 15:16:00 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\linh-nguyen\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-04-02 15:16:00 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-02 15:16:01 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\linh-nguyen\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-02 15:18:07 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\linh-nguyen\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-04-02 15:18:08 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-02 15:18:08 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\linh-nguyen\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-02 15:19:37 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\linh-nguyen\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-04-02 15:19:38 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-02 15:19:38 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\linh-nguyen\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-02 15:21:19 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\linh-nguyen\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-04-02 15:21:20 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-02 15:21:20 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\linh-nguyen\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-02 15:23:13 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\linh-nguyen\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-04-02 15:23:14 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-02 15:23:14 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\linh-nguyen\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-02 15:24:34 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\linh-nguyen\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-04-02 15:24:35 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-02 15:24:35 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\linh-nguyen\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-02 15:28:55 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\linh-nguyen\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-04-02 15:28:56 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-02 15:28:56 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\linh-nguyen\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-03 16:25:55 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-03 16:25:57 INFO  WebDriverManager:1219 - Using msedgedriver 123.0.2420.65 (resolved driver for Edge 123)
+2024-04-03 16:25:57 INFO  WebDriverManager:1281 - Exporting webdriver.edge.driver as C:\Users\cuube\.cache\selenium\msedgedriver\win64\123.0.2420.65\msedgedriver.exe
+2024-04-03 16:26:03 INFO  HomePage:16 - Clicking on Register link
+2024-04-03 16:26:04 INFO  RegisterPage:27 - Registering user
+2024-04-03 16:27:31 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-03 16:27:32 WARN  VersionDetector:360 - Error reading commands.properties, using local instead
+2024-04-03 16:27:32 WARN  VersionDetector:129 - Exception reading CfT URL ('https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json') to get version of chromedriver (No such host is known (googlechromelabs.github.io))
+2024-04-03 16:27:32 WARN  VersionDetector:155 - Exception reading https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_123 to get latest version of chromedriver (googlechromelabs.github.io)
+2024-04-03 16:27:32 WARN  VersionDetector:129 - Exception reading CfT URL ('https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json') to get version of chromedriver (googlechromelabs.github.io)
+2024-04-03 16:27:32 WARN  VersionDetector:155 - Exception reading https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_STABLE to get latest version of chromedriver (googlechromelabs.github.io)
+2024-04-03 16:27:32 WARN  WebDriverManager:1424 - There was an error managing chromedriver (latest version) (googlechromelabs.github.io) ... trying again using latest driver stored in cache
+2024-04-03 16:27:32 WARN  VersionDetector:129 - Exception reading CfT URL ('https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json') to get version of chromedriver (googlechromelabs.github.io)
+2024-04-03 16:27:32 WARN  VersionDetector:155 - Exception reading https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_STABLE to get latest version of chromedriver (googlechromelabs.github.io)
+2024-04-03 16:27:32 ERROR WebDriverManager:1413 - There was an error managing chromedriver (latest version) (googlechromelabs.github.io)
+java.net.UnknownHostException: googlechromelabs.github.io
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1527)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1380)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1302)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:157)
+	at io.github.bonigarcia.wdm.online.Parser.parseJson(Parser.java:54)
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getDriverUrls(ChromeDriverManager.java:119)
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1435)
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1267)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1183)
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1430)
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1408)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1189)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:426)
+	at com.parabanknew.test.RegisterTest.setup(RegisterTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2024-04-03 16:28:12 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-03 16:28:14 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-03 16:28:14 INFO  Downloader:132 - Downloading https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/win64/chromedriver-win64.zip
+2024-04-03 16:28:15 INFO  Downloader:193 - Extracting driver from compressed file chromedriver-win64.zip
+2024-04-03 16:28:16 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-03 16:40:08 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-03 16:40:08 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-03 16:40:08 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-03 16:46:57 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-03 16:46:57 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-03 16:46:57 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-03 16:50:41 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-03 16:50:41 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-03 16:50:41 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-03 16:51:51 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-03 16:51:51 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-03 16:51:51 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-03 16:54:22 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-03 16:54:23 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-03 16:54:23 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-03 16:55:12 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-03 16:55:12 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-03 16:55:12 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-03 16:58:35 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-03 16:58:35 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-03 16:58:35 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-03 16:59:54 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-03 16:59:54 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-03 16:59:54 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-03 17:07:03 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-03 17:07:03 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-03 17:07:03 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-04 11:41:39 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-04 11:41:40 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-04 11:41:40 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-04 21:23:27 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-04 21:23:29 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-04 21:23:29 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-04 21:24:51 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-04 21:24:51 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-04 21:24:51 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-04 21:29:11 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-04 21:29:11 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-04 21:29:11 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-04 21:36:24 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-04 21:36:24 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-04 21:36:25 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-04 21:37:32 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-04 21:37:32 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-04 21:37:32 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-04 21:38:13 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-04 21:38:13 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-04 21:38:13 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-04 21:41:51 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-04 21:41:52 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-04 21:41:52 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-04 21:44:08 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-04 21:44:08 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-04 21:44:08 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-04 21:49:44 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-04 21:49:45 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-04 21:49:45 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+2024-04-04 21:50:22 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-04 21:50:22 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+2024-04-04 21:50:22 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe

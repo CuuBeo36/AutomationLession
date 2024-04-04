@@ -1,5 +1,6 @@
 package com.parabank.pageObject;
 
+import com.parabank.pojo.User;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
@@ -22,18 +23,18 @@ public class RegisterPage {
     By txtUsername = By.id("customer.username");
     By txtPassword = By.id("customer.password");
     By txtRePass = By.id("repeatedPassword");
-    public void register(String firstName, String lastName, String address, String city, String state, String zipCode, String phoneNo, String Ssn, String username, String password, String rePass){
+    public void register(User user){
         log.info("Registering user");
-        driver.findElement(txtFirstName).sendKeys(firstName);
-        driver.findElement(txtLastName).sendKeys(lastName);
-        driver.findElement(txtAddress).sendKeys(address);
-        driver.findElement(txtCity).sendKeys(city);
-        driver.findElement(txtState).sendKeys(state);
-        driver.findElement(txtZipCode).sendKeys(zipCode);
-        driver.findElement(txtPhoneNo).sendKeys(phoneNo);
-        driver.findElement(txtSsn).sendKeys(Ssn);
-        driver.findElement(txtUsername).sendKeys(username);
-        driver.findElement(txtPassword).sendKeys(password);
-        driver.findElement(txtRePass).sendKeys(rePass);
+        driver.findElement(txtFirstName).sendKeys(user.getFirstName());
+//        driver.findElement(txtLastName).sendKeys(user.getLastName());
+//        driver.findElement(txtAddress).sendKeys(address);
+//        driver.findElement(txtCity).sendKeys(city);
+//        driver.findElement(txtState).sendKeys(state);
+//        driver.findElement(txtZipCode).sendKeys(zipCode);
+//        driver.findElement(txtPhoneNo).sendKeys(phoneNo);
+//        driver.findElement(txtSsn).sendKeys(Ssn);
+//        driver.findElement(txtUsername).sendKeys(username);
+//        driver.findElement(txtPassword).sendKeys(password);
+//        driver.findElement(txtRePass).sendKeys(rePass);
     }
 }
