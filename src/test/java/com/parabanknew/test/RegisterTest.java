@@ -13,10 +13,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.time.Duration;
 import java.util.HashMap;
@@ -26,7 +23,7 @@ public class RegisterTest {
     WebDriver driver;
     String baseUrl = "https://parabank.parasoft.com/parabank/index.htm";
 
-    @BeforeTest
+    @BeforeMethod
     public void setup() {
         WebDriverManager.chromedriver().setup();
 
@@ -41,7 +38,7 @@ public class RegisterTest {
         driver.get(baseUrl);
     }
 
-    @Test (priority = 5)
+    @Test (priority = 1)
     public void testRegisterSuccess() throws InterruptedException {
         User user = new User();
         user.generateUser();
@@ -80,7 +77,7 @@ public class RegisterTest {
         Thread.sleep(5000);
 
         //        TODO: xpath should be in pageObject -> DONE
-        WebElement t = driver.findElement(By.id("customer.username.errors"));
+        WebElement t = driver.findElement(registerPage.msgUsername);
 
         String actualElementText = t.getText();
         System.out.println(actualElementText);
@@ -107,7 +104,7 @@ public class RegisterTest {
         Thread.sleep(5000);
 
 //        TODO: xpath should be in pageObject -> DONE
-        WebElement t = driver.findElement(By.id("customer.password.errors"));
+        WebElement t = driver.findElement(registerPage.msgPassword);
 
         String actualElementText = t.getText();
         System.out.println(actualElementText);
@@ -135,7 +132,7 @@ public class RegisterTest {
         Thread.sleep(5000);
 
 //        TODO: xpath should be in pageObject -> DONE
-        WebElement t = driver.findElement(By.id("customer.username.errors"));
+        WebElement t = driver.findElement(registerPage.msgUsername);
 
         String actualElementText = t.getText();
         System.out.println(actualElementText);
@@ -150,7 +147,7 @@ public class RegisterTest {
 //        driver.findElement(By.linkText("Home")).click() ;
 //    }
 
-    @AfterTest
+    @AfterMethod
         public void tearDown() {
             driver.quit();
         }

@@ -20,6 +20,8 @@ public class RegisterPage {
     By txtUsername = By.id("customer.username");
     By txtPassword = By.id("customer.password");
     By txtRePass = By.id("repeatedPassword");
+     public By msgUsername = By.id("customer.username.errors");
+     public By msgPassword = By.id("customer.password.errors");
 
     By btnRegister = By.xpath("//*[@id='customerForm']/table/tbody/tr[13]/td[2]/input");
 
@@ -36,5 +38,6 @@ public class RegisterPage {
         driver.findElement(txtPassword).sendKeys(user.getPassword());
         driver.findElement(txtRePass).sendKeys(user.getPassword());
         driver.findElement(btnRegister).click();
+
     }
 }
