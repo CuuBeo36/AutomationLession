@@ -31,5 +31,6 @@ public class User {
         this.setSsn(faker.idNumber().ssnValid());
         this.setUsername(faker.name().username());
         this.setPassword("Passw@rd123");
+        this.setConfirmPassword("Passw@rd123");
     }
 }

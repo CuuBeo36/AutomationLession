@@ -428,3 +428,426 @@ java.net.UnknownHostException: googlechromelabs.github.io
 2024-04-08 09:54:26 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
 2024-04-08 09:54:39 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
 2024-04-08 09:54:39 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 11:34:14 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_include.xml
+
+2024-04-08 11:34:15 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 11:34:15 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 11:34:36 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 11:34:36 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 11:34:48 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 11:34:48 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 11:34:57 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 11:34:57 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 11:36:12 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_include.xml
+
+2024-04-08 11:36:12 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 11:36:12 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 11:36:22 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 11:36:22 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 11:36:33 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 11:36:33 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 11:36:43 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 11:36:43 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 11:40:30 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_include.xml
+
+2024-04-08 11:40:30 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 11:40:30 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 11:40:42 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 11:40:42 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 11:40:52 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 11:40:52 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 11:41:02 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 11:41:02 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 16:18:55 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 16:19:38 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 16:19:58 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 16:22:05 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-08 16:22:06 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 16:22:06 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 16:22:27 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 16:22:27 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 16:22:38 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 16:22:38 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 16:22:50 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 16:22:50 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 16:30:38 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 16:31:26 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-08 16:31:27 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 16:31:27 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 16:32:55 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-08 16:32:56 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 16:32:56 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 16:36:16 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 16:36:29 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 16:41:48 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 16:44:00 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 16:46:00 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 16:46:24 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 16:47:07 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 16:47:07 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 16:47:07 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 16:48:50 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 16:50:21 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 16:54:04 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 16:54:59 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 16:56:21 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 16:57:40 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 16:58:52 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 17:00:59 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 17:00:59 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 17:00:59 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 17:13:58 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-08 17:13:59 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 17:13:59 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 17:14:18 INFO  RegisterTest:63 - abcYour account was created successfully. You are now logged in.
+2024-04-08 17:15:46 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-08 17:15:47 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 17:15:47 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 17:15:58 INFO  RegisterTest:63 - abcYour account was created successfully. You are now logged in.
+2024-04-08 17:15:58 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 17:15:58 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 17:16:09 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 17:16:09 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-08 17:16:19 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-08 17:16:19 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 10:35:46 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-09 10:35:47 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 10:35:47 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 10:36:07 INFO  RegisterTest:60 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 10:36:07 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 10:36:07 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 10:36:18 INFO  RegisterTest:82 - abcYour account was created successfully. You are now logged in.
+2024-04-09 10:37:08 INFO  Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-04-09 10:37:08 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-09 10:37:08 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 10:37:08 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 10:37:08 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 10:37:08 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 10:40:49 INFO  Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-04-09 10:40:50 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-09 10:40:50 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 10:40:50 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 10:40:50 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 10:40:50 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 10:43:52 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-09 10:43:52 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 10:43:52 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 10:44:04 INFO  RegisterTest:60 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 10:44:04 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 10:44:04 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 10:44:15 INFO  RegisterTest:80 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 10:59:40 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-09 10:59:41 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 10:59:41 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 10:59:59 INFO  RegisterTest:60 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 10:59:59 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 10:59:59 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:00:10 INFO  RegisterTest:80 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 11:00:10 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:00:10 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:00:50 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:00:50 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:01:30 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:01:30 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:02:05 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-09 11:02:05 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:02:05 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:02:16 INFO  RegisterTest:60 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 11:02:16 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:02:16 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:02:26 INFO  RegisterTest:80 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 11:02:26 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:02:26 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:02:36 INFO  RegisterTest:101 - Actual message: First name is required.
+2024-04-09 11:02:36 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:02:36 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:02:49 INFO  RegisterTest:122 - Actual message: Last name is required.
+2024-04-09 11:02:49 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:02:49 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:03:30 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:03:30 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:03:39 INFO  RegisterTest:143 - Actual message: Username is required.
+2024-04-09 11:03:40 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:03:40 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:04:20 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:04:20 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:04:30 INFO  RegisterTest:164 - Actual message: Password is required.
+2024-04-09 11:09:40 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-09 11:09:40 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:09:40 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:09:52 INFO  RegisterTest:60 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 11:09:52 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:09:52 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:10:03 INFO  RegisterTest:81 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 11:10:03 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:10:03 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:10:14 INFO  RegisterTest:102 - Actual message: First name is required.
+2024-04-09 11:10:14 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:10:14 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:10:24 INFO  RegisterTest:123 - Actual message: Last name is required.
+2024-04-09 11:10:24 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:10:24 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:11:04 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:11:05 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:11:15 INFO  RegisterTest:144 - Actual message: Username is required.
+2024-04-09 11:11:15 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:11:15 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:11:26 INFO  RegisterTest:210 - Actual message:This username already exists.
+2024-04-09 11:11:26 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:11:26 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:11:36 INFO  RegisterTest:165 - Actual message: Password is required.
+2024-04-09 11:12:21 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-09 11:12:22 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:12:22 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:14:14 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-09 11:14:15 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:14:15 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:16:21 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-09 11:16:21 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:16:21 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:18:04 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-09 11:18:04 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:18:04 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:20:27 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-09 11:20:27 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:20:27 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:20:48 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-09 11:20:48 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:20:48 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:21:42 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-09 11:21:42 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:21:42 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:22:03 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-09 11:22:03 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:22:03 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:22:56 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-09 11:22:57 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:22:57 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:23:10 INFO  RegisterTest:165 - Actual message: Password is required.
+2024-04-09 11:23:50 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-09 11:23:50 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:23:50 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:25:27 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-09 11:25:28 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:25:28 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:26:18 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-09 11:26:18 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:26:18 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:31:31 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-09 11:31:31 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:31:31 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:31:44 INFO  RegisterTest:60 - Actual message: If you have an account with us you can sign-up for free instant online access. You will have to provide some personal information.
+2024-04-09 11:31:44 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:31:44 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:31:56 INFO  RegisterTest:81 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 11:31:56 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:31:56 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:32:08 INFO  RegisterTest:102 - Actual message: First name is required.
+2024-04-09 11:32:08 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:32:08 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:32:17 INFO  RegisterTest:123 - Actual message: Last name is required.
+2024-04-09 11:32:17 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:32:17 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:32:59 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:32:59 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:33:11 INFO  RegisterTest:144 - Actual message: Username is required.
+2024-04-09 11:33:11 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:33:11 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:33:21 INFO  RegisterTest:208 - Actual message:This username already exists.
+2024-04-09 11:33:21 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:33:21 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:33:34 INFO  RegisterTest:165 - Actual message: Password is required.
+2024-04-09 11:37:10 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-09 11:37:11 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:37:11 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:37:24 INFO  RegisterTest:60 - Actual message: If you have an account with us you can sign-up for free instant online access. You will have to provide some personal information.
+2024-04-09 11:37:24 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:37:24 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:37:27 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:37:27 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:37:30 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:37:30 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:37:40 INFO  RegisterTest:123 - Actual message: Last name is required.
+2024-04-09 11:37:41 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:37:41 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:39:04 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-09 11:39:04 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:39:04 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:39:24 INFO  RegisterTest:60 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 11:39:24 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:39:24 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:39:34 INFO  RegisterTest:81 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 11:39:35 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:39:35 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:39:45 INFO  RegisterTest:102 - Actual message: First name is required.
+2024-04-09 11:39:45 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:39:45 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:39:55 INFO  RegisterTest:123 - Actual message: Last name is required.
+2024-04-09 11:39:55 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:39:55 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:40:36 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:40:36 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:40:46 INFO  RegisterTest:144 - Actual message: Username is required.
+2024-04-09 11:40:46 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:40:46 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:40:56 INFO  RegisterTest:208 - Actual message:This username already exists.
+2024-04-09 11:40:56 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 11:40:56 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 11:41:05 INFO  RegisterTest:165 - Actual message: Password is required.
+2024-04-09 15:47:12 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-09 15:47:14 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 15:47:14 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 15:50:55 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2024-04-09 15:50:55 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 15:50:55 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 15:51:07 INFO  RegisterTest:186 - Actual message: Password confirmation is required.
+2024-04-09 15:52:41 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-09 15:52:41 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 15:52:41 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 15:52:53 INFO  RegisterTest:60 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 15:52:54 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 15:52:54 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 15:53:04 INFO  RegisterTest:81 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 15:53:04 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 15:53:04 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 15:53:15 INFO  RegisterTest:102 - Actual message: First name is required.
+2024-04-09 15:53:15 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 15:53:15 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 15:53:26 INFO  RegisterTest:123 - Actual message: Last name is required.
+2024-04-09 15:53:26 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 15:53:26 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 15:53:37 INFO  RegisterTest:186 - Actual message: Password confirmation is required.
+2024-04-09 15:53:37 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 15:53:37 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 15:53:47 INFO  RegisterTest:144 - Actual message: Username is required.
+2024-04-09 15:53:47 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 15:53:47 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 15:53:57 INFO  RegisterTest:208 - Actual message:This username already exists.
+2024-04-09 15:53:58 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 15:53:58 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 15:54:08 INFO  RegisterTest:165 - Actual message: Password is required.
+2024-04-09 15:55:11 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-09 15:55:11 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 15:55:11 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 15:55:22 INFO  RegisterTest:60 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 15:55:22 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 15:55:22 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 15:55:33 INFO  RegisterTest:81 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 16:04:15 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\cuube\Automation\AutomationLession1\testNG_group.xml
+
+2024-04-09 16:04:16 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 16:04:16 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 16:04:16 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 16:04:16 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 16:04:36 INFO  RegisterTest:76 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 16:04:36 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 16:04:36 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 16:04:36 INFO  RegisterTest:76 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 16:04:37 INFO  WebDriverManager:1219 - Using chromedriver 123.0.6312.105 (resolved driver for Chrome 123)
+2024-04-09 16:04:37 INFO  WebDriverManager:1281 - Exporting webdriver.chrome.driver as C:\Users\cuube\.cache\selenium\chromedriver\win64\123.0.6312.105\chromedriver.exe
+2024-04-09 16:04:47 INFO  RegisterTest:97 - Actual message: Your account was created successfully. You are now logged in.
+2024-04-09 16:04:47 INFO  RegisterTest:97 - Actual message: Your account was created successfully. You are now logged in.

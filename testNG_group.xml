@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+    <test name="Parabank: Register Test Success Chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <groups>
+            <run>
+                <include name="success"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.parabanknew.test.RegisterTest"/>
+        </classes>
+    </test>
+    <test name="Parabank: Register Test Success Firefox">
+        <parameter name="browser" value="firefox"></parameter>
+        <groups>
+            <run>
+                <include name="success"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.parabanknew.test.RegisterTest"/>
+        </classes>
+    </test>
+<!--    <test name="Parabank: Register Test Fail">-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="fail"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.parabanknew.test.RegisterTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
