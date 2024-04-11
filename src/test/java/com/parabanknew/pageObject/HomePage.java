@@ -12,7 +12,13 @@ public class HomePage {
 
     By lnkRegisterBy = By.linkText("Register");
 
+    By lnkAboutUs = By.linkText("About Us");
+
     public void clickRegister() {
         driver.findElement(lnkRegisterBy).click();
+    }
+
+    public void clickAboutUs() {
+        driver.findElement(lnkAboutUs).click();
     }
 }
