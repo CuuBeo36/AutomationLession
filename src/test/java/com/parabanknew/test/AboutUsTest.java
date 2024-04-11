@@ -27,6 +27,7 @@ public class AboutUsTest {
         WebDriverManager.chromedriver().setup();
         // Disable save password popup
         ChromeOptions options = new ChromeOptions();
+        // Running mode: headless
         options.addArguments("--headless");
         Map<String, Object> prefs = new HashMap<String, Object>();
         prefs.put("autofill.profile_enabled", false);

@@ -3,6 +3,7 @@ package com.parabanknew.test;
 import com.parabanknew.pageObject.HomePage;
 import com.parabanknew.pageObject.RegisterPage;
 import com.parabanknew.pojo.User;
+import com.parabanknew.utils.Config;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
@@ -31,7 +32,7 @@ public class RegisterTest {
         WebDriverManager.chromedriver().setup();
         // Disable save password popup
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
+//        options.addArguments("--headless");
         Map<String, Object> prefs = new HashMap<String, Object>();
         prefs.put("autofill.profile_enabled", false);
         options.setExperimentalOption("prefs", prefs);
@@ -55,7 +56,7 @@ public class RegisterTest {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 
-    @Test(groups = {"success"}, description = "Full information")
+    @Test(groups = {"only"}, description = "Full information")
     public void testRegisterFull() throws InterruptedException {
         User user = new User();
         user.generateUser();
@@ -65,16 +66,16 @@ public class RegisterTest {
 
         RegisterPage registerPage = new RegisterPage(driver);
         registerPage.register(user);
-
-        String expectedElementText = "Your account was created successfully. You are now logged in.";
-        Thread.sleep(5000);
-
-        WebElement t = driver.findElement(By.xpath("//*[@id=\"rightPanel\"]/p"));
-
-        String actualElementText = t.getText();
-//        System.out.println(actualElementText);
-        log.info("Actual message: " + actualElementText);
-        Assert.assertEquals(actualElementText, expectedElementText, "Expected and Actual are not same");
+//
+//        String expectedElementText = "Your account was created successfully. You are now logged in.";
+//        Thread.sleep(5000);
+//
+//        WebElement t = driver.findElement(registerPage.txtRegisterSuccess);
+//        String actualElementText = t.getText();
+//        log.info("Actual message: " + actualElementText);
+//        Assert.assertEquals(actualElementText, expectedElementText, "Expected and Actual are not same");
+        String expectedMessage= Config.getProperty("expectedRegisterSuccessMessage");
+        registerPage.verifySuccessMessage(expectedMessage);
     }
 
     @Test(groups = {"success"}, description = "PhoneNo is empty")
@@ -89,13 +90,15 @@ public class RegisterTest {
         RegisterPage registerPage = new RegisterPage(driver);
         registerPage.register(user);
 
-        String expectedElementText = "Your account was created successfully. You are now logged in.";
-        Thread.sleep(5000);
+//        String expectedElementText = "Your account was created successfully. You are now logged in.";
+//        Thread.sleep(5000);
 
-        WebElement t = driver.findElement(By.xpath("//*[@id=\"rightPanel\"]/p"));
-        String actualElementText = t.getText();
-        log.info("Actual message: " + actualElementText);
-        Assert.assertEquals(actualElementText, expectedElementText, "Expected and Actual are not same");
+//        WebElement t = driver.findElement(registerPage.txtRegisterSuccess);
+//        String actualElementText = t.getText();
+//        log.info("Actual message: " + actualElementText);
+//        Assert.assertEquals(actualElementText, expectedElementText, "Expected and Actual are not same");
+        String expectedMessage= Config.getProperty("expectedRegisterSuccessMessage");
+        registerPage.verifySuccessMessage(expectedMessage);
     }
 
     @Test(groups = {"fail"})
