@@ -4,6 +4,7 @@ import com.parabanknew.pageObject.AboutUsPage;
 import com.parabanknew.pageObject.HomePage;
 import com.parabanknew.pageObject.RegisterPage;
 import com.parabanknew.pojo.User;
+import com.parabanknew.utils.Base64;
 import com.parabanknew.utils.Config;
 import com.parabanknew.utils.Data;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -61,8 +62,7 @@ public class LoginTest {
 
         String expectedTitle = Config.getProperty("expectedRegisterSuccessMessage");
         registerPage.verifySuccessMessage(expectedTitle);
-        WebElement btnLogOut = driver.findElement(By.xpath("//*[@id=\"leftPanel\"]/ul/li[8]/a"));
-        btnLogOut.click();
+        homePage.btnLogOut.click();
 
         homePage.login(user);
         log.info("First name:" + user.firstName);
@@ -70,15 +70,34 @@ public class LoginTest {
         String expectedAccount = "Welcome " + user.firstName + " " + user.lastName;
         log.info(expectedAccount);
 
-        WebElement loggedAccount = driver.findElement(By.className("smallText"));
+        String loggedAccount = homePage.txtWelcomeMessage.getText();
         log.info(loggedAccount);
         Assert.assertEquals(loggedAccount, expectedAccount, "Pass");
     }
 
+    @Test (description = "Test login with valid user")
+    public void testLoginValidAccount() throws InterruptedException {
+        User user = new User();
+//        user.setUsername(Base64.encode(Data.getProperty("user0")));
+//        user.setPassword(Base64.encode(Data.getProperty("pass0")));
+        user.setUsername(Base64.decode(Data.getProperty("user0")));
+        user.setPassword(Base64.decode(Data.getProperty("pass0")));
+        log.info("1111111 " + user.username);
+        log.info("1111111 " + user.password);
+
+        HomePage homePage = new HomePage(driver);
+        homePage.login(user);
+
+        String expectedMessage = Data.getProperty("message3");
+        log.info(expectedMessage);
+
+        String loggedAccount = homePage.txtWelcomeMessage.getText();
+        log.info(loggedAccount);
+        Assert.assertEquals(loggedAccount, expectedMessage, "Pass");
+    }
     @Test (description = "Test login with invalid user")
     public void testLoginInvalidAccount() throws InterruptedException {
         User user = new User();
-        user.generateUser();
         user.setUsername(Data.getProperty("user1"));
         user.setPassword(Data.getProperty("pass1"));
 

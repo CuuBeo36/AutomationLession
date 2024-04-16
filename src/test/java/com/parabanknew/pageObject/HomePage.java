@@ -26,7 +26,7 @@ public class HomePage {
     @FindBy(xpath = "//input[@value=\"Log In\"]")
     WebElement btnLogin;
 
-    @FindBy(xpath = "//input[@name=\"username\"]")
+    @FindBy(css = "input[name=username]")
     WebElement txtUsername;
 
     @FindBy(xpath = "//input[@name=\"password\"]")
@@ -34,7 +34,12 @@ public class HomePage {
 
     @FindBy(xpath ="//*[@id=\"rightPanel\"]/p")
     public WebElement txtLoginError;
-//    public By txtLoginError = By.xpath("//*[@id=\"rightPanel\"]/p");
+
+    @FindBy(xpath = "//*[@id=\"leftPanel\"]/ul/li[8]/a")
+    public WebElement btnLogOut;
+
+    @FindBy(css = "#leftPanel > p")
+    public WebElement txtWelcomeMessage;
 
     public void clickRegister() {
         lnkRegisterBy.click();
