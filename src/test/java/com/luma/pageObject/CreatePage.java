@@ -48,4 +48,10 @@ public class CreatePage {
 //        String expectedMessage1 = Message.getProperty("CreateAccountSuccess");
         Assert.assertEquals(actualMessage, expectedMessage);
     }
+    public String getActualSuccessMessage() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        wait.until(ExpectedConditions.visibilityOf(txtRegisterSuccess));
+        String actualMessage = txtRegisterSuccess.getText();
+        return actualMessage;
+    }
 }
