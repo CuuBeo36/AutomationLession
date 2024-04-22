@@ -1,5 +1,10 @@
 package com.parabanknew.test;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.luma.utils.Message;
 import com.parabanknew.pageObject.HomePage;
 import com.parabanknew.pageObject.RegisterPage;
 import com.parabanknew.pojo.User;
@@ -26,6 +31,14 @@ public class RegisterTest {
     WebDriver driver;
     String baseUrl = "https://parabank.parasoft.com/parabank/index.htm";
     static Logger log = Logger.getLogger(RegisterTest.class.getName());
+    private ExtentReports extent;
+    private ExtentTest test;
+    @BeforeSuite
+    public void setUp() {
+        ExtentSparkReporter htmlReporter = new ExtentSparkReporter("report.html");
+        extent = new ExtentReports();
+        extent.attachReporter(htmlReporter);
+    }
 
     @BeforeMethod(alwaysRun = true)
     public void setup() {
@@ -66,16 +79,16 @@ public class RegisterTest {
 
         RegisterPage registerPage = new RegisterPage(driver);
         registerPage.register(user);
-//
-//        String expectedElementText = "Your account was created successfully. You are now logged in.";
-//        Thread.sleep(5000);
-//
-//        WebElement t = driver.findElement(registerPage.txtRegisterSuccess);
-//        String actualElementText = t.getText();
-//        log.info("Actual message: " + actualElementText);
-//        Assert.assertEquals(actualElementText, expectedElementText, "Expected and Actual are not same");
-        String expectedMessage= Config.getProperty("expectedRegisterSuccessMessage");
-        registerPage.verifySuccessMessage(expectedMessage);
+
+        String expectedMessage = Config.getProperty("expectedRegisterSuccessMessage");
+        String actualMessage = registerPage.getActualSuccessMessage();
+        try {
+            Assert.assertEquals(actualMessage, expectedMessage);
+            test.log(Status.PASS, "Test passed");
+        } catch (AssertionError e) {
+            test.log(Status.FAIL, "Test failed: " + e.getMessage());
+            throw e;  // Re-throw the exception to mark test as failed in TestNG
+        }
     }
 
     @Test(groups = {"success"}, description = "PhoneNo is empty")
@@ -90,15 +103,15 @@ public class RegisterTest {
         RegisterPage registerPage = new RegisterPage(driver);
         registerPage.register(user);
 
-//        String expectedElementText = "Your account was created successfully. You are now logged in.";
-//        Thread.sleep(5000);
-
-//        WebElement t = driver.findElement(registerPage.txtRegisterSuccess);
-//        String actualElementText = t.getText();
-//        log.info("Actual message: " + actualElementText);
-//        Assert.assertEquals(actualElementText, expectedElementText, "Expected and Actual are not same");
-        String expectedMessage= Config.getProperty("expectedRegisterSuccessMessage");
-        registerPage.verifySuccessMessage(expectedMessage);
+        String expectedMessage = Config.getProperty("expectedRegisterSuccessMessage");
+        String actualMessage = registerPage.getActualSuccessMessage();
+        try {
+            Assert.assertEquals(actualMessage, expectedMessage);
+            test.log(Status.PASS, "Test passed");
+        } catch (AssertionError e) {
+            test.log(Status.FAIL, "Test failed: " + e.getMessage());
+            throw e;  // Re-throw the exception to mark test as failed in TestNG
+        }
     }
 
     @Test(groups = {"fail"})
@@ -231,5 +244,6 @@ public class RegisterTest {
     @AfterMethod(alwaysRun = true)
     public void tearDown() {
         driver.quit();
+        extent.flush();
     }
 }

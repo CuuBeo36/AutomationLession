@@ -4,11 +4,14 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import com.luma.pageObject.HomePage;
+import com.luma.pageObject.CheckoutPage;
 import com.luma.pageObject.CreatePage;
+import com.luma.pageObject.HomePage;
+import com.luma.pojo.CheckoutUser;
 import com.luma.pojo.SignInUser;
 import com.luma.utils.Env;
 import com.luma.utils.Message;
+import com.parabanknew.pojo.User;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -24,10 +27,10 @@ import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
 
-public class RegisterTest {
+public class CheckoutTest {
     WebDriver driver;
     String baseUrl = Env.getProperty("baseUrl");
-    static Logger log = Logger.getLogger(com.luma.test.RegisterTest.class.getName());
+    static Logger log = Logger.getLogger(com.luma.test.CheckoutTest.class.getName());
     long implicitlyWait;
 
     private ExtentReports extent;
@@ -39,7 +42,6 @@ public class RegisterTest {
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
     }
-
     @BeforeMethod(alwaysRun = true)
     public void setup() {
         WebDriverManager.chromedriver().setup();
@@ -47,37 +49,32 @@ public class RegisterTest {
         ChromeOptions options = new ChromeOptions();
         // Running mode: headless
 //        options.addArguments("--headless");
-//        Map<String, Object> prefs = new HashMap<String, Object>();
-//        prefs.put("autofill.profile_enabled", false);
-//        options.setExperimentalOption("prefs", prefs);
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         implicitlyWait = Long.parseLong(Env.getProperty("implicitlyWait"));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitlyWait));
         driver.get(baseUrl);
     }
-
-    @Test(description = "Full information")
-    public void testRegisterFull() throws InterruptedException {
-        test = extent.createTest("testRegisterFull", "testRegisterFull");
-        SignInUser user = new SignInUser();
-        user.generateUser();
+    @Test(description = "testCheckoutNoSignIn")
+    public void testCheckoutNoSignIn() throws InterruptedException {
+        test = extent.createTest("testCheckoutNoSignIn", "testCheckoutNoSignIn");
 
         HomePage homePage = new HomePage(driver);
-        homePage.clickCreateAccount();
+        homePage.selectWomen();
+        homePage.selectWomenTops();
+        homePage.clickWomenJackets();
+        homePage.clickJacketSize();
+        homePage.clickJacketColor();
+        homePage.clickAddToCart();
+        homePage.clickShowCart();
+        homePage.clickCheckout();
 
-        CreatePage createPage = new CreatePage(driver);
-        createPage.register(user);
+        CheckoutUser user = new CheckoutUser();
+        user.generateCheckOutUser();
 
-        String expectedMessage = Message.getProperty("CreateAccountSuccess");
-        String actualMessage = createPage.getActualSuccessMessage();
-        try {
-            Assert.assertEquals(actualMessage, expectedMessage);
-            test.log(Status.PASS, "Test passed");
-        } catch (AssertionError e) {
-            test.log(Status.FAIL, "Test failed: " + e.getMessage());
-            throw e;  // Re-throw the exception to mark test as failed in TestNG
-        }
+        CheckoutPage checkoutPage = new CheckoutPage(driver);
+        checkoutPage.checkout(user);
+
     }
     @AfterMethod(alwaysRun = true)
     public void tearDown (){
@@ -85,4 +82,3 @@ public class RegisterTest {
         extent.flush();
     }
 }
-

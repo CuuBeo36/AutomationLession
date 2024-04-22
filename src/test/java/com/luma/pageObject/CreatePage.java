@@ -1,8 +1,6 @@
 package com.luma.pageObject;
 
-import com.luma.pojo.User;
-import com.luma.utils.Message;
-import com.parabanknew.utils.Config;
+import com.luma.pojo.SignInUser;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,7 +9,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import java.lang.reflect.Member;
 import java.time.Duration;
 
 public class CreatePage {
@@ -33,7 +30,7 @@ public class CreatePage {
     WebElement btnCreate;
     @FindBy (xpath = "//*[@id=\"maincontent\"]/div[1]/div[2]/div/div/div")
     WebElement txtRegisterSuccess;
-    public void register(User user) {
+    public void register(SignInUser user) {
         txtFristName.sendKeys(user.getFirstName());
         txtLastName.sendKeys(user.getLastName());
         txtEmail.sendKeys(user.getEmail());

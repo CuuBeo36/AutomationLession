@@ -107,4 +107,10 @@ public class RegisterPage {
         String expectedTitle = Config.getProperty("expectedRegisterSuccessMessage");
         Assert.assertEquals(actualTitle, expectedTitle);
     }
+    public String getActualSuccessMessage() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        wait.until(ExpectedConditions.visibilityOf(txtRegisterSuccess));
+        String actualMessage = txtRegisterSuccess.getText();
+        return actualMessage;
+    }
 }
