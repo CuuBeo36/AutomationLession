@@ -5,11 +5,14 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.luma.pageObject.CheckoutPage;
+import com.luma.pageObject.CommonPage;
 import com.luma.pageObject.CreatePage;
 import com.luma.pageObject.HomePage;
 import com.luma.pojo.CheckoutUser;
 import com.luma.pojo.SignInUser;
 import com.luma.utils.Env;
+import com.luma.utils.ExtentTestManager;
+import com.luma.utils.LibWebGeneric;
 import com.luma.utils.Message;
 import com.parabanknew.pojo.User;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -32,7 +35,6 @@ public class CheckoutTest {
     String baseUrl = Env.getProperty("baseUrl");
     static Logger log = Logger.getLogger(com.luma.test.CheckoutTest.class.getName());
     long implicitlyWait;
-
     private ExtentReports extent;
     private ExtentTest test;
 
@@ -66,8 +68,36 @@ public class CheckoutTest {
         homePage.clickJacketSize();
         homePage.clickJacketColor();
         homePage.clickAddToCart();
+        homePage.verifyAddSuccessMessage();
         homePage.clickShowCart();
         homePage.clickCheckout();
+
+        CommonPage commonPage = new CommonPage(driver);
+        commonPage.waitForLoadingIconToDisappear();
+
+        CheckoutUser user = new CheckoutUser();
+        user.generateCheckOutUser();
+
+        CheckoutPage checkoutPage = new CheckoutPage(driver);
+        checkoutPage.checkout(user);
+
+    }
+    @Test(description = "testCheckoutNoSignIn1")
+    public void testCheckoutNoSignIn1() throws InterruptedException {
+        test = extent.createTest("testCheckoutNoSignIn", "testCheckoutNoSignIn");
+
+        driver.get("https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html");
+        HomePage homePage = new HomePage(driver);
+
+        homePage.clickJacketSize();
+        homePage.clickJacketColor();
+        homePage.clickAddToCart();
+        homePage.verifyAddSuccessMessage();
+        homePage.clickShowCart();
+        homePage.clickCheckout();
+
+        CommonPage commonPage = new CommonPage(driver);
+        commonPage.waitForLoadingIconToDisappear();
 
         CheckoutUser user = new CheckoutUser();
         user.generateCheckOutUser();
@@ -78,7 +108,9 @@ public class CheckoutTest {
     }
     @AfterMethod(alwaysRun = true)
     public void tearDown (){
-        driver.quit();
+        ExtentTestManager extentTestManager = new ExtentTestManager(driver, test);
+        extentTestManager.captureAndAttachFullPageScreenshot();
+//        driver.quit();
         extent.flush();
     }
 }

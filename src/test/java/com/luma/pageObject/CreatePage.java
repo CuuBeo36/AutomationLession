@@ -42,7 +42,6 @@ public class CreatePage {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         wait.until(ExpectedConditions.visibilityOf(txtRegisterSuccess));
         String actualMessage = txtRegisterSuccess.getText();
-//        String expectedMessage1 = Message.getProperty("CreateAccountSuccess");
         Assert.assertEquals(actualMessage, expectedMessage);
     }
     public String getActualSuccessMessage() {
