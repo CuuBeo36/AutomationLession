@@ -3,7 +3,6 @@ package com.luma.pageObject;
 import com.luma.utils.LibWebGeneric;
 import com.luma.utils.Message;
 import com.luma.utils.ReadExcelFile;
-import com.parabanknew.utils.Config;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Keys;
@@ -12,12 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.Factory;
-
-import java.time.Duration;
 
 public class HomePage {
     WebDriver driver;
@@ -104,5 +98,7 @@ public class HomePage {
         String searchText = readExcelFile.readData();
         txtSearch.sendKeys(searchText);
         txtSearch.sendKeys(Keys.ENTER);
+        Assert.assertTrue(false);
     }
+
 }

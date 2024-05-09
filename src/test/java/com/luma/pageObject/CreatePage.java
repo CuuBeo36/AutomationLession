@@ -42,12 +42,8 @@ public class CreatePage {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         wait.until(ExpectedConditions.visibilityOf(txtRegisterSuccess));
         String actualMessage = txtRegisterSuccess.getText();
+        System.out.println("Actual Message " + actualMessage);
+        System.out.println("Expected Message " + expectedMessage);
         Assert.assertEquals(actualMessage, expectedMessage);
-    }
-    public String getActualSuccessMessage() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-        wait.until(ExpectedConditions.visibilityOf(txtRegisterSuccess));
-        String actualMessage = txtRegisterSuccess.getText();
-        return actualMessage;
     }
 }
