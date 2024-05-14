@@ -15,7 +15,6 @@ import java.util.Random;
 
 public class CheckoutPage {
     WebDriver driver;
-
     static Logger log = LogManager.getLogger(CheckoutPage.class.getName());
     CommonPage commonPage;
     LibWebGeneric libWebGeneric;

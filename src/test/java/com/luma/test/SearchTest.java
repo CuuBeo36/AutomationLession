@@ -19,18 +19,6 @@ public class SearchTest extends BaseClass {
     @Test(description = "testSearch1text")
     public void testSearch1text() throws InterruptedException {
         HomePage homePage = new HomePage(getDriver());
-        //homePage.searchTextFromFile();
-    }
-
-    @Test(description = "testSearch1text")
-    public void testSearch2text() throws InterruptedException {
-        HomePage homePage = new HomePage(getDriver());
-        homePage.searchTextFromFile();
-    }
-
-    @Test(description = "testSearch1text")
-    public void testSearch3text() throws InterruptedException {
-        HomePage homePage = new HomePage(getDriver());
         homePage.searchTextFromFile();
     }
 }
