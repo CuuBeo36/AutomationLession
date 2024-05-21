@@ -125,7 +125,7 @@ public class PracticeForm {
         lstStates.get(randomCity).click();
         log.info("End select City");
     }
-//    public void pickerDate(){
+    //    public void pickerDate(){
 //        List<WebElement> datePickerDays = driver.findElements(By.id("dateOfBirthInput"));
 //        datePickerDays.stream().filter(e->e.getText().equals(today)).findFirst().get().click();
 //}

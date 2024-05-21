@@ -1,8 +1,6 @@
 package com.demoqa.test;
 
 import com.demoqa.pageObject.ModalDialog;
-import com.demoqa.pageObject.PracticeForm;
-import com.demoqa.pojo.RegisterUser;
 import com.demoqa.utils.Env;
 import com.demoqa.utils.Text;
 import org.testng.annotations.Test;

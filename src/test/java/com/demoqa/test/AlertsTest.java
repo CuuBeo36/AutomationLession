@@ -1,9 +1,7 @@
 package com.demoqa.test;
 
 import com.demoqa.pageObject.Alerts;
-import com.demoqa.pageObject.ModalDialog;
 import com.demoqa.utils.Env;
-import com.demoqa.utils.Text;
 import com.demoqa.utils.Text;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
