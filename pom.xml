@@ -9,10 +9,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>11</java.version>
-        <selenium.version>4.18.1</selenium.version>
-        <webdriver.manager.version>5.7.0</webdriver.manager.version>
+        <selenium.version>4.19.0</selenium.version>
+        <webdriver.manager.version>5.8.0</webdriver.manager.version>
         <testNG.version>7.8.0</testNG.version>
-        <suiteXmlFile>src/test/java/com/luma/testNG.xml</suiteXmlFile>
+        <suiteXmlFile>src/test/java/com/demoqa_cucumber/testNG.xml</suiteXmlFile>
         <cucumber.version>7.15.0</cucumber.version>
     </properties>
     <dependencies>
@@ -113,7 +113,6 @@
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
             <version>${cucumber.version}</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
     <build>

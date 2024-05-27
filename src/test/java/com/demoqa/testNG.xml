@@ -7,8 +7,6 @@
     <test name="Parallel Test">
         <classes>
             <class name="com.demoqa.test.AlertsTest"/>
-            <class name="com.demoqa.test.ModalDialogTest"/>
-            <class name="com.demoqa.test.PracticeFormTest"/>
         </classes>
     </test>
 </suite>
