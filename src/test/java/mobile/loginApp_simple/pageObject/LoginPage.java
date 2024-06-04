@@ -1,10 +1,10 @@
-package mobile.loginApp.pageObject;
+package mobile.loginApp_simple.pageObject;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
-import mobile.loginApp.pojo.User;
+import mobile.loginApp_simple.pojo.User;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;

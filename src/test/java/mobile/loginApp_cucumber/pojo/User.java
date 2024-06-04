@@ -1,4 +1,4 @@
-package mobile.loginApp.pojo;
+package mobile.loginApp_cucumber.pojo;
 
 import com.github.javafaker.Faker;
 import lombok.Getter;

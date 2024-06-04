@@ -1,4 +1,4 @@
-package mobile.loginApp.utils;
+package mobile.loginApp_simple.utils;
 
 import org.json.JSONObject;
 import org.json.JSONTokener;

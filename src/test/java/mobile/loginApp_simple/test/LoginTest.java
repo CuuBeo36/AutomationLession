@@ -1,15 +1,15 @@
-package mobile.loginApp.test;
+package mobile.loginApp_simple.test;
 
 import io.appium.java_client.AppiumDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import mobile.loginApp.pageObject.LoginPage;
-import mobile.loginApp.utils.JsonUtils;
+import mobile.loginApp_simple.pageObject.LoginPage;
+import mobile.loginApp_simple.utils.JsonUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
-import mobile.loginApp.pojo.User;
+import mobile.loginApp_simple.pojo.User;
 import mobile.web.pageObject.TempMailPage;
 
 import java.net.MalformedURLException;
