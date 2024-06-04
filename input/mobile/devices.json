@@ -1,0 +1,23 @@
+{
+  "Device1": {
+    "platformName": "Android",
+    "appium:deviceName ": "Small_Phone_API_30",
+    "appium:avd": "Small_Phone_API_30",
+    "appium:appPackage": "com.loginmodule.learning",
+    "appium:appActivity": "com.loginmodule.learning.activities.LoginActivity",
+    "appium:unicodeKeyboard": "true",
+    "appium:resetKeyboard": "true",
+    "appium:app": "Sample_Android_App_Login_Tes_4.0.apk"
+  },
+  "Device2": {
+    "platformName": "Android",
+    "appium:deviceName ": "Pixel_3a_API_34",
+    "appium:platformVersion": "11.0",
+    "appium:browserName": "",
+    "appium:avd": "Pixel_3a_API_34",
+    "appium:appPackage": "com.swaglabsmobileapp",
+    "appium:appActivity": "com.swaglabsmobileapp.MainActivity",
+    "appium:unicodeKeyboard": "true",
+    "appium:resetKeyboard": "true"
+  }
+}
