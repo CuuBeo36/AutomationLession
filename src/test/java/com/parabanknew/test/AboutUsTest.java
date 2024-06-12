@@ -3,7 +3,7 @@ package com.parabanknew.test;
 import com.beust.ah.A;
 import com.parabanknew.pageObject.AboutUsPage;
 import com.parabanknew.pageObject.HomePage;
-import com.parabanknew.utils.Config;
+import com.parabanknew.utils.Config1;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -18,7 +18,7 @@ import java.util.Map;
 
 public class AboutUsTest {
     WebDriver driver;
-    String baseUrl = Config.getProperty("baseUrl");
+    String baseUrl = Config1.getProperty("baseUrl");
 
     static Logger log = Logger.getLogger(RegisterTest.class.getName());
     long implicitlyWait;
@@ -34,7 +34,7 @@ public class AboutUsTest {
         options.setExperimentalOption("prefs", prefs);
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
-        implicitlyWait = Long.parseLong(Config.getProperty("implicitlyWait"));
+        implicitlyWait = Long.parseLong(Config1.getProperty("implicitlyWait"));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitlyWait));
         driver.get(baseUrl);
     }
@@ -44,7 +44,7 @@ public class AboutUsTest {
         homePage.clickAboutUs();
 
         AboutUsPage aboutUsPage = new AboutUsPage(driver);
-        String expectedTitle= Config.getProperty("expectedTitleAboutUs");
+        String expectedTitle= Config1.getProperty("expectedTitleAboutUs");
         aboutUsPage.verifyTitle(expectedTitle);
     }
 }

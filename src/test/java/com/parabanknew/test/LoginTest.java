@@ -1,10 +1,10 @@
 package com.parabanknew.test;
 
+import com.automation.core.utils.Base64;
 import com.parabanknew.pageObject.AboutUsPage;
 import com.parabanknew.pageObject.HomePage;
 import com.parabanknew.pageObject.RegisterPage;
 import com.parabanknew.pojo.User;
-import com.parabanknew.utils.Base64;
 import com.parabanknew.utils.Config;
 import com.parabanknew.utils.Data;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -28,7 +28,7 @@ import java.util.Map;
 
 public class LoginTest {
     WebDriver driver;
-    String baseUrl = Config.getProperty("baseUrl");
+    String baseUrl = new Config().getProperty("baseUrl");
     static Logger log = Logger.getLogger(RegisterTest.class.getName());
     long implicitlyWait;
 
@@ -44,12 +44,12 @@ public class LoginTest {
         options.setExperimentalOption("prefs", prefs);
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
-        implicitlyWait = Long.parseLong(Config.getProperty("implicitlyWait"));
+        implicitlyWait = Long.parseLong(new Config().getProperty("implicitlyWait"));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitlyWait));
         driver.get(baseUrl);
     }
 
-    @Test (description = "Test login with recently sign up user")
+    @Test(description = "Test login with recently sign up user")
     public void testLoginSuccess() throws InterruptedException {
         User user = new User();
         user.generateUser();
@@ -60,7 +60,7 @@ public class LoginTest {
         RegisterPage registerPage = new RegisterPage(driver);
         registerPage.register(user);
 
-        String expectedTitle = Config.getProperty("expectedRegisterSuccessMessage");
+        String expectedTitle = new Config().getProperty("expectedRegisterSuccessMessage");
         registerPage.verifySuccessMessage(expectedTitle);
         homePage.btnLogOut.click();
 
@@ -75,57 +75,60 @@ public class LoginTest {
         Assert.assertEquals(loggedAccount, expectedAccount, "Pass");
     }
 
-    @Test (description = "Test login with valid user")
+    @Test(description = "Test login with valid user")
     public void testLoginValidAccount() throws InterruptedException {
         User user = new User();
-//        user.setUsername(Base64.encode(Data.getProperty("user0")));
-//        user.setPassword(Base64.encode(Data.getProperty("pass0")));
-        user.setUsername(Base64.decode(Data.getProperty("user0")));
-        user.setPassword(Base64.decode(Data.getProperty("pass0")));
+//        user.setUsername(Base64.encode(new Data().getProperty("user0")));
+//        user.setPassword(Base64.encode(new Data().getProperty("pass0")));
+        user.setUsername(Base64.decode(new Data().getProperty("user0")));
+        user.setPassword(Base64.decode(new Data().getProperty("pass0")));
         log.info("1111111 " + user.username);
         log.info("1111111 " + user.password);
 
         HomePage homePage = new HomePage(driver);
         homePage.login(user);
 
-        String expectedMessage = Data.getProperty("message3");
+        String expectedMessage = new Data().getProperty("message3");
         log.info(expectedMessage);
 
         String loggedAccount = homePage.txtWelcomeMessage.getText();
         log.info(loggedAccount);
         Assert.assertEquals(loggedAccount, expectedMessage, "Pass");
     }
-    @Test (description = "Test login with invalid user")
+
+    @Test(description = "Test login with invalid user")
     public void testLoginInvalidAccount() throws InterruptedException {
         User user = new User();
-        user.setUsername(Data.getProperty("user1"));
-        user.setPassword(Data.getProperty("pass1"));
+        user.setUsername(new Data().getProperty("user1"));
+        user.setPassword(new Data().getProperty("pass1"));
 
         HomePage homePage = new HomePage(driver);
         homePage.login(user);
 
         String actualError = homePage.txtLoginError.getText();
-        String expectedError= Data.getProperty("message1");
+        String expectedError = new Data().getProperty("message1");
         log.info("Actual message: " + actualError);
         log.info(expectedError);
         Assert.assertEquals(actualError, expectedError, "Wrong message");
     }
-    @Test (description = "Test login with special characters")
+
+    @Test(description = "Test login with special characters")
     public void testLoginSpecialCharacter() throws InterruptedException {
         User user = new User();
         user.generateUser();
-        user.setUsername(Data.getProperty("user2"));
-        user.setPassword(Data.getProperty("pass2"));
+        user.setUsername(new Data().getProperty("user2"));
+        user.setPassword(new Data().getProperty("pass2"));
 
         HomePage homePage = new HomePage(driver);
         homePage.login(user);
 
         String actualError = homePage.txtLoginError.getText();
-        String expectedError= Data.getProperty("message2");
+        String expectedError = new Data().getProperty("message2");
         log.info("Actual message: " + actualError);
         log.info(expectedError);
         Assert.assertEquals(actualError, expectedError, "Wrong message");
     }
+
     @AfterMethod(alwaysRun = true)
     public void tearDown() {
         driver.quit();

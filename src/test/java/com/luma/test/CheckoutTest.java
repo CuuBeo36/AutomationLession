@@ -34,7 +34,6 @@ public class CheckoutTest extends BaseClass {
 
         CheckoutPage checkoutPage = new CheckoutPage(getDriver());
         checkoutPage.checkout(user);
-
     }
     @Test(description = "testCheckoutNoSignIn1")
     public void testCheckoutNoSignIn1() throws InterruptedException {
