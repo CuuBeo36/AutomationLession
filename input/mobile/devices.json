@@ -37,5 +37,18 @@
     "appium:avd": "Pixel_Tablet_API_TiramisuPrivacySandbox",
     "appium:unicodeKeyboard": "true",
     "appium:resetKeyboard": "true"
+  },
+  "Device5": {
+    "platformName": "android",
+    "appium:platformVersion": "13.0",
+    "appium:deviceName": "Samsung Galaxy S23 Ultra",
+    "appium:app": "bs://b51a5825b8cf8617d9c0c4d1d0dad089967c6da7",
+    "bstack:options": {
+      "projectName" : "LoginApp",
+      "userName": "cuubeo_Su8GIc",
+      "accessKey": "xJ6xoV1z9zii1hxeenGp",
+      "interactiveDebugging": "true",
+      "debug": "true"
+    }
   }
 }

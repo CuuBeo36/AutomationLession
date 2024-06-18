@@ -21,7 +21,7 @@ public class LoginPage {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    @AndroidFindBy(id = "com.loginmodule.learning:id/textInputEditTextEmail")
+    @AndroidFindBy(xpath = "//android.widget.EditText[@resource-id=\"com.loginmodule.learning:id/textInputEditTextEmail\"]")
     @iOSXCUITFindBy(id = "com.loginmodule.learning:id/textInputEditTextEmail")
     WebElement txtEmail;
     @AndroidFindBy(id = "com.loginmodule.learning:id/textInputEditTextPassword")
@@ -34,11 +34,11 @@ public class LoginPage {
     WebElement btnRegister;
 
     public void login(User user) {
-        LibMobileGeneric.waitForElementVisible(driver,txtEmail, Duration.ofSeconds(30));
+        LibMobileGeneric.waitForElementVisible(driver,txtEmail, Duration.ofSeconds(60));
         txtEmail.sendKeys(user.getEmail());
-        LibMobileGeneric.waitForElementVisible(driver,txtPassword, Duration.ofSeconds(30));
+        LibMobileGeneric.waitForElementVisible(driver,txtPassword, Duration.ofSeconds(60));
         txtPassword.sendKeys(user.getPassword());
-        LibMobileGeneric.waitForElementVisible(driver,btnLogin, Duration.ofSeconds(30));
+        LibMobileGeneric.waitForElementVisible(driver,btnLogin, Duration.ofSeconds(60));
         btnLogin.click();
     }
 
