@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 import mobile.loginApp_simple.pojo.User;
-import mobile.web.pageObject.TempMailPage;
+import mobile.loginApp_simple.pageObject.TempMailPage;
 
 import java.net.MalformedURLException;
 import java.net.URL;

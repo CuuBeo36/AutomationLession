@@ -19,5 +19,23 @@
     "appium:appActivity": "com.swaglabsmobileapp.MainActivity",
     "appium:unicodeKeyboard": "true",
     "appium:resetKeyboard": "true"
+  },
+  "Device3": {
+    "platformName": "Android",
+    "appium:deviceName ": "Medium Phone API 34",
+    "appium:platformVersion": "14.0",
+    "appium:browserName": "Chrome",
+    "appium:avd": "Medium_Phone_API_34",
+    "appium:unicodeKeyboard": "true",
+    "appium:resetKeyboard": "true"
+  },
+  "Device4": {
+    "platformName": "Android",
+    "appium:deviceName ": "Pixel Tablet API TiramisuPrivacySandbox",
+    "appium:platformVersion": "14.0",
+    "appium:browserName": "Chrome",
+    "appium:avd": "Pixel_Tablet_API_TiramisuPrivacySandbox",
+    "appium:unicodeKeyboard": "true",
+    "appium:resetKeyboard": "true"
   }
 }

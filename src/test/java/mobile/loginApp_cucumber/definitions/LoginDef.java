@@ -1,6 +1,8 @@
 package mobile.loginApp_cucumber.definitions;
 
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.remote.SupportsContextSwitching;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -8,7 +10,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import mobile.loginApp_cucumber.pageObject.LoginPage;
 import mobile.loginApp_cucumber.pojo.User;
 import mobile.loginApp_cucumber.utils.JsonUtils;
-import mobile.web.pageObject.TempMailPage;
+import mobile.loginApp_simple.pageObject.TempMailPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -46,7 +48,12 @@ public class LoginDef {
         String newPath = System.getProperty("user.dir") + "\\" + appName;
         capabilities.setCapability("appium:app", newPath);
 
-        mobileDriver = new AppiumDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
+//        mobileDriver = new AppiumDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
+        mobileDriver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
+        String id = mobileDriver.getSessionId().toString();
+        System.out.println("id: " + id);
+        String context = ((SupportsContextSwitching) mobileDriver).getContext();
+        System.out.println("Context: " + context);
         LoginPage login = new LoginPage(mobileDriver);
         User user = new User();
         user.generateLoginUser();
@@ -59,6 +66,20 @@ public class LoginDef {
     public void verifyWrongMessage() {
         LoginPage login = new LoginPage(mobileDriver);
         login.verifyWrongLogin();
+    }
+
+    @When("User open browser on Device")
+    public void openBrowser() throws MalformedURLException {
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+
+        capabilities = JsonUtils.getCapabilitiesFromJson("Device4");
+//        AppiumDriverLocalService service = AppiumDriverLocalService.buildService(new AppiumServiceBuilder().usingAnyFreePort().withArgument(() -> "--allow-insecure","chromedriver_autodownload"));
+//        capabilities.setCapability("appium:chromedriverExecutable", "C:\\Users\\cuube\\Downloads\\chromedriver_linux64\\chromedriver.exe");
+        mobileDriver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
+        String id = mobileDriver.getSessionId().toString();
+        System.out.println("id: " + id);
+        String context = ((SupportsContextSwitching) mobileDriver).getContext();
+        System.out.println("Context: " + context);
     }
 
 }
