@@ -15,7 +15,8 @@
         <testNG.version>7.8.0</testNG.version>
         <suiteXmlFile>src/test/java/com/demoqa_cucumber/testNG.xml</suiteXmlFile>
         <cucumber.version>7.15.0</cucumber.version>
-        <automationCore.version>2.0</automationCore.version>
+        <automationCore.version>2-20240620.090916-3</automationCore.version>
+        <rest.assured.version>4.3.3</rest.assured.version>
     </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
@@ -137,6 +138,18 @@
             <version>2.3.33</version>
         </dependency>
         <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>${rest.assured.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>commons-configuration</groupId>
+            <artifactId>commons-configuration</artifactId>
+            <version>1.10</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
             <groupId>com.automation</groupId>
             <artifactId>automation-core</artifactId>
             <version>${automationCore.version}</version>
@@ -161,6 +174,12 @@
             <classifier>tests</classifier>
 <!--            <systemPath>${project.basedir}/jar/automation-core-1.1-tests.jar</systemPath>-->
             <!--            <systemPath>C:/Users/cuube/Automation/AutomationCore/target/automation-core-1.0-tests.jar</systemPath>-->
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-remote-driver</artifactId>
+            <version>4.21.0</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
     <build>
