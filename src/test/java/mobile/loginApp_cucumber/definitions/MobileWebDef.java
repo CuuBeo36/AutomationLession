@@ -1,5 +1,6 @@
 package mobile.loginApp_cucumber.definitions;
 
+import com.automation.core.utils.BStackJson;
 import io.appium.java_client.AppiumDriver;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -18,7 +19,6 @@ import java.util.HashMap;
 
 public class MobileWebDef {
     AppiumDriver mobileDriver;
-
     RemoteWebDriver remoteWebDriver;
     @When("Setup mobile web device")
     public void setupMobileWeb() throws MalformedURLException {
@@ -40,16 +40,7 @@ public class MobileWebDef {
     @When("Setup mobile web device from Json")
     public void setupMobileWebFromJson() throws MalformedURLException {
         MutableCapabilities capabilities = new MutableCapabilities();
-        HashMap<String, Object> browserstackOptions = new HashMap<String, Object>();
-        capabilities.setCapability("browserName", "safari");
-        browserstackOptions.put("osVersion", "16");
-        browserstackOptions.put("deviceName", "iPhone 14 Pro Max");
-        browserstackOptions.put("appiumVersion", "1.21.0");
-        browserstackOptions.put("userName", "cuubeo_Su8GIc");
-        browserstackOptions.put("accessKey", "xJ6xoV1z9zii1hxeenGp");
-        browserstackOptions.put("interactiveDebugging", "true");
-        browserstackOptions.put("debug", "true");
-        capabilities.setCapability("bstack:options", browserstackOptions);
+        capabilities = BStackJson.getCapabilitiesFromJson("Device6");
 
         remoteWebDriver = new RemoteWebDriver(new URL("https://hub.browserstack.com/wd/hub"), capabilities);
     }

@@ -1,4 +1,4 @@
-package mobile.loginApp_cucumber.pageObject;
+package api.fullFlow.pageObject;
 
 import com.automation.core.utils.LibMobileGeneric;
 import io.appium.java_client.AppiumDriver;
@@ -7,7 +7,6 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import mobile.loginApp_cucumber.pojo.User;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -15,11 +14,11 @@ import org.testng.Assert;
 import java.time.Duration;
 
 public class LoginPage {
-    AppiumDriver driver;
+    RemoteWebDriver remoteWebDriver;
 
-    public LoginPage(AppiumDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+    public LoginPage(RemoteWebDriver remoteWebDriver) {
+        this.remoteWebDriver = remoteWebDriver;
+        PageFactory.initElements(new AppiumFieldDecorator(remoteWebDriver), this);
     }
 
     @AndroidFindBy(xpath = "//android.widget.EditText[@resource-id=\"com.loginmodule.learning:id/textInputEditTextEmail\"]")
@@ -31,32 +30,22 @@ public class LoginPage {
     WebElement btnLogin;
     @AndroidFindBy(xpath = "//android.widget.TextView[@resource-id=\"com.loginmodule.learning:id/snackbar_text\"]")
     WebElement msgWrongLogin;
-    @AndroidFindBy(xpath = "//android.widget.TextView[@text=\"No account yet? Create one\"]")
-    WebElement btnRegister;
 
-    public void login(User user) {
-        LibMobileGeneric.waitForElementVisible(driver,txtEmail, Duration.ofSeconds(60));
+    public void login(User user) throws InterruptedException {
+//        Thread.sleep(Duration.ofSeconds(20));
+//        LibMobileGeneric.waitForElementVisible(remoteWebDriver,txtEmail, Duration.ofSeconds(60));
         txtEmail.sendKeys(user.getEmail());
-        LibMobileGeneric.waitForElementVisible(driver,txtPassword, Duration.ofSeconds(60));
+//        LibMobileGeneric.waitForElementVisible(remoteWebDriver,txtPassword, Duration.ofSeconds(60));
         txtPassword.sendKeys(user.getPassword());
-        LibMobileGeneric.waitForElementVisible(driver,btnLogin, Duration.ofSeconds(60));
+//        LibMobileGeneric.waitForElementVisible(remoteWebDriver,btnLogin, Duration.ofSeconds(60));
         btnLogin.click();
     }
 
-    public void verifyWrongLogin() {
+    public void verifyLoginFail(){
         String actualMessage = msgWrongLogin.getText();
         String expectedMessage = ("Wrong Email or Password");
         Assert.assertEquals(actualMessage, expectedMessage);
-    }
-
-    public void verifyLoginSuccess(){
-        String actualMessage = msgWrongLogin.getText();
-        String expectedMessage = ("Wrong Email or Password");
-        Assert.assertEquals(actualMessage, expectedMessage);
-    }
-
-    public void clickRegister() throws InterruptedException {
-        LibMobileGeneric.scrollDown(driver);
-        btnRegister.click();
     }
 }
+
+

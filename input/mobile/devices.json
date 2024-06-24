@@ -50,5 +50,18 @@
       "interactiveDebugging": "true",
       "debug": "true"
     }
+  },
+  "Device6": {
+    "browserName": "safari",
+    "bstack:options": {
+      "projectName" : "MobileWeb",
+      "appiumVersion" : "1.21.0",
+      "osVersion" : "17",
+      "deviceName": "iPhone 13",
+      "userName": "cuubeo_Su8GIc",
+      "accessKey": "xJ6xoV1z9zii1hxeenGp",
+      "interactiveDebugging": "true",
+      "debug": "true"
+    }
   }
 }

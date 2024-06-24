@@ -15,7 +15,7 @@
         <testNG.version>7.8.0</testNG.version>
         <suiteXmlFile>src/test/java/com/demoqa_cucumber/testNG.xml</suiteXmlFile>
         <cucumber.version>7.15.0</cucumber.version>
-        <automationCore.version>2-20240620.090916-3</automationCore.version>
+        <automationCore.version>3.1</automationCore.version>
         <rest.assured.version>4.3.3</rest.assured.version>
     </properties>
     <dependencies>
@@ -153,26 +153,26 @@
             <groupId>com.automation</groupId>
             <artifactId>automation-core</artifactId>
             <version>${automationCore.version}</version>
-<!--            <scope>system</scope>-->
-<!--            <systemPath>${project.basedir}/jar/automation-core-1.1.jar</systemPath>-->
+            <scope>system</scope>
+            <systemPath>${project.basedir}/jar/automation-core-3.1.jar</systemPath>
             <!--            <systemPath>C:/Users/cuube/Automation/AutomationCore/target/automation-core-1.0.jar</systemPath>-->
         </dependency>
         <dependency>
             <groupId>com.automation</groupId>
             <artifactId>automation-core</artifactId>
             <version>${automationCore.version}</version>
-<!--            <scope>system</scope>-->
+            <scope>system</scope>
             <classifier>test-sources</classifier>
-<!--            <systemPath>${project.basedir}/jar/automation-core-1.1-test-sources.jar</systemPath>-->
+            <systemPath>${project.basedir}/jar/automation-core-3.1-test-sources.jar</systemPath>
             <!--            &lt;!&ndash;            <systemPath>C:/Users/cuube/Automation/AutomationCore/target/automation-core-1.0-test-sources.jar&ndash;&gt;</systemPath>-->
         </dependency>
         <dependency>
             <groupId>com.automation</groupId>
             <artifactId>automation-core</artifactId>
             <version>${automationCore.version}</version>
-<!--            <scope>system</scope>-->
+            <scope>system</scope>
             <classifier>tests</classifier>
-<!--            <systemPath>${project.basedir}/jar/automation-core-1.1-tests.jar</systemPath>-->
+            <systemPath>${project.basedir}/jar/automation-core-3.1-tests.jar</systemPath>
             <!--            <systemPath>C:/Users/cuube/Automation/AutomationCore/target/automation-core-1.0-tests.jar</systemPath>-->
         </dependency>
         <dependency>
